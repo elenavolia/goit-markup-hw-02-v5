@@ -41,6 +41,8 @@ a {
 }
 ul {
   list-style: none;
+  margin: none;
+  padding: none;
 }
 
 /*header*/
@@ -192,7 +194,7 @@ ul {
   text-transform: uppercase;
 }
 
-.team-section {
+.team {
   background-color: var(--secondary-background-color);
 }
 

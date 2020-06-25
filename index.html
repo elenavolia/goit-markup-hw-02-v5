@@ -68,7 +68,7 @@
 
     <!--Unic page contant-->
     <main>
-      <section class="section">
+      <section class="section main">
         <img src="./images/Header-img.png" alt="главная картика" width="1600" />
         <h1 class="slogan" lang="ru">
           Эффективные решения <br />
@@ -80,7 +80,7 @@
       </section>
 
       <!--Main points section-->
-      <section class="section">
+      <section class="section features">
         <h2 class="invisible-titel" lang="ru">Сильные стороны</h2>
         <ul class="feature-list">
           <li>
@@ -134,28 +134,25 @@
       </section>
 
       <!--What do we do section-->
-      <section class="section">
-        <div class="services">
-          <h2 class="section-titel" lang="ru">Чем мы занимаемся</h2>
-          <ul class="list item">
-            <li>
-              <img src="./images/laptop.png" alt="laptop" width="370" />
-              <h4 class="item-titel" lang="ru">Десктопные приложения</h4>
-            </li>
-            <li>
-              <img src="./images/smartphone.png" alt="smartphone" width="370" />
-              <h4 class="item-titel" lang="ru">Мобильные приложения</h4>
-            </li>
-            <li>
-              <img src="./images/desctop.png" alt="desctop" width="370" />
-              <h4 class="item-titel" lang="ru">Дизайнерские решения</h4>
-            </li>
-          </ul>
-        </div>
+      <section class="section services">
+        <h2 class="section-titel" lang="ru">Чем мы занимаемся</h2>
+        <ul class="list item">
+          <li>
+            <img src="./images/laptop.png" alt="laptop" width="370" />
+            <h4 class="item-titel" lang="ru">Десктопные приложения</h4>
+          </li>
+          <li>
+            <img src="./images/smartphone.png" alt="smartphone" width="370" />
+            <h4 class="item-titel" lang="ru">Мобильные приложения</h4>
+          </li>
+          <li>
+            <img src="./images/desctop.png" alt="desctop" width="370" />
+            <h4 class="item-titel" lang="ru">Дизайнерские решения</h4>
+          </li>
+        </ul>
       </section>
       <!--Our team section-->
-      <section class="team-section">
-        <div class="team">
+      <section class="section team">
           <h2 class="section-titel" lang="ru">Наша команда</h2>
           <ul class="list">
             <li class="team-list">
@@ -333,7 +330,7 @@
       </section>
 
       <!--Our clients section-->
-      <section class="section">
+      <section class="section clients">
         <h2 class="section-titel" lang="ru">Постоянные клиенты</h2>
         <!--logos-->
         <ul class="list">
@@ -396,7 +393,7 @@
           </ul>
         </address>
 
-        <section class="section">
+        <div class="section footer-main">
           <b class="footer-titel" lang="ru">присоединяйтесь</b>
 
           <h5 class="invisible-titel" lang="ru">Социальные сети</h5>
@@ -426,8 +423,9 @@
               </li>
             </ul>
           </div>
-        </section>
-        <b class="footer-titel" lang="ru">подпишитесь на рассылку</b>
+        </div>
+        <div class="subscribe">
+            <b class="footer-titel" lang="ru">подпишитесь на рассылку</b>
         <form name="email-form" method="post" action="input1.php">
           <input name="email" type="text" size="40" placeholder="E-mail" />
           <input
@@ -437,6 +435,8 @@
             value="Подписаться"
           />
         </form>
+        </div>
+        
       </div>
 
       <p class="ps">&copy; 2020 | Developed by GoIT Students</p>
