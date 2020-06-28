@@ -41,8 +41,8 @@ a {
 }
 ul {
   list-style: none;
-  margin: none;
-  padding: none;
+  margin: 0;
+  padding: 0;
 }
 
 /*header*/
@@ -293,7 +293,6 @@ ul {
 }
 
 .social link {
-  height: 20;
   font-weight: 20;
   color: rgba(0.69, 0.69, 0.72, 1);
   text-decoration: none;
